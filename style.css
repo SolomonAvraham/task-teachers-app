@@ -45,9 +45,8 @@ button {
   background-color: #c3158e;
 }
 
-
 table {
-    border-collapse: collapse;
+  border-collapse: collapse;
   width: 90%;
   text-align: center;
 }
@@ -57,22 +56,26 @@ th,
 tbody,
 td {
   border: 1px solid black;
-  background-color: #ab15c3  ;
+  background-color: #ab15c3;
 }
 
-span{
-    color:  #0e72f0 ;
-    font-style: italic;
+span {
+  color: #0e72f0;
+  font-style: italic;
 }
 
-.name{
-    font-weight: bold;
-    color: #0ef047 ;
+.name {
+  font-weight: bold;
+  color: #0ef047;
 }
+
+
 footer {
   height: 10%;
   border-color: white;
   color: white;
   background-color: #5e95e4;
-  position: fixed;
+  position: sticky
+  
+  ;
 }
